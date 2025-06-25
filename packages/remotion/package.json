@@ -1,0 +1,23 @@
+{
+  "name": "@thinkthroo/remotion",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "remotion preview",
+    "build": "remotion build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/react": "^19.1.4"
+  },
+  "dependencies": {
+    "codehike": "^1.0.7",
+    "react": "^19.1.0",
+    "remotion": "^4.0.305",
+    "zod": "^3.25.20"
+  }
+}
