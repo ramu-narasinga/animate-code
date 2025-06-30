@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { Button } from "@/src/components/ui/button";
 import { Card, CardContent } from "@/src/components/ui/card";
-import SiteHeader from "@/components/interfaces/site/header";
-import RenderTable from "@/components/interfaces/renders/renderpage/RenderTable";
-import PaginationControls from "@/components/interfaces/renders/renderpage/PaginationControls";
+import SiteHeader from "@/src/components/interfaces/site/header";
+import RenderTable from "@/src/components/interfaces/renders/renderpage/RenderTable";
+import PaginationControls from "@/src/components/interfaces/renders/renderpage/PaginationControls";
 
 const RenderPage: React.FC = () => {
   return (

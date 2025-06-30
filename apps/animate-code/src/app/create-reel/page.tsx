@@ -92,7 +92,6 @@ console.log(greet("World"));`);
             className="cursor-col-resize w-1 bg-gray-300 hover:bg-gray-500 transition-colors"
             onMouseDown={handleMouseDown}
           />
-          works
           <div style={{ width: `${100 - leftPanelWidth}%` }} className="h-full">
             <RightPanel code={previewCode} />
           </div>

@@ -25,9 +25,10 @@ const MonacoEditor: React.FC<MonacoEditorProps> = ({
   onAddToTimeline,
 }) => {
   return (
-    <Card className="flex-1 overflow-auto mx-4 mb-4">
+    <Card className="flex-1 overflow-auto mx-4 mb-4 py-0 rounded-0">
       <div className="h-full">
         <CodeMirror
+          className="h-full"
           value={code}
           height="100%"
           extensions={[extension]}
