@@ -22,15 +22,17 @@ export default function SiteHeader() {
             height={32}
           />
 
-          <Link href="/create-reel">
+      
+
+          <Link href="/reels">
             <Button variant="ghost" className="flex gap-2">
               <Image
-                src="/create-reel/add.svg"
-                alt="Add"
+                src="/create-reel/video.svg"
+                alt="Video"
                 width={16}
                 height={16}
               />
-              Create
+              Reels
             </Button>
           </Link>
 
